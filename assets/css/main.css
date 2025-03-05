@@ -1447,7 +1447,9 @@ section,
   position: relative;
   border-radius: 15px;
 }
-
+.pricing p {
+  text-align: justify;
+}
 .pricing h3 {
   font-weight: 600;
   margin-bottom: 15px;
@@ -1474,7 +1476,9 @@ section,
   transition: ease-in-out 0.3s;
   line-height: 0;
 }
-
+.pricing .icon img {
+  width: 6rem;
+}
 .pricing .icon::before {
   position: absolute;
   content: "";
@@ -1502,7 +1506,7 @@ section,
   color: var(--accent-color);
   font-weight: 700;
   font-family: var(--heading-font);
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -1536,20 +1540,9 @@ section,
   padding-right: 3px;
 }
 
-.pricing ul .na {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
-}
-
-.pricing ul .na i {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
-}
-
-.pricing ul .na span {
-  text-decoration: line-through;
-}
-
 .pricing .buy-btn {
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: var(--background-color);
+  background-color: var(--accent-color);
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
@@ -1562,8 +1555,8 @@ section,
 }
 
 .pricing .buy-btn:hover {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
+  background-color: var(--background-color);
+  color: var(--default-color);
 }
 
 .pricing .featured {
@@ -2975,4 +2968,58 @@ section,
   padding-left: 5px;
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
+}
+
+iframe {
+  height: 20rem;
+  width: -webkit-fill-available;
+  /* box-sizing: border-box; */
+  border-radius: 20px;
+}
+.video-container {
+  filter: drop-shadow(10px 10px 12px grey);
+}
+
+.AboutSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 10px;
+}
+.AboutContent h2 {
+  font-weight: 700;
+}
+
+@media (min-width: 900px) {
+  .AboutSection {
+    flex-direction: row;
+    padding: 70px;
+  }
+}
+
+.AusImage img {
+  object-fit: cover;
+  width: -webkit-fill-available;
+  filter: drop-shadow(5px 5px 10px #000000);
+}
+.Criteria ul {
+  list-style: none;
+}
+.Criteria li {
+  margin: 6px;
+}
+.Criteria i {
+  color: var(--accent-color);
+}
+tr:hover td {
+  background-color: rgb(209, 209, 209);
+  cursor: pointer;
+}
+.commonMargin {
+  margin: 7rem 0;
+}
+p {
+  text-align: justify;
 }
