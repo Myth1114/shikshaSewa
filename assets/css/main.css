@@ -3020,6 +3020,9 @@ tr:hover td {
 .commonMargin {
   margin: 7rem 0;
 }
-p {
-  text-align: justify;
+.mission {
+  text-align: center;
+}
+.mission img {
+  width: 180px;
 }
