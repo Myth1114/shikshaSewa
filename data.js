@@ -1,0 +1,108 @@
+const universities = [
+  {
+    id: 1,
+    name: "Beihang University",
+    ranking: 1,
+    location: "Beijing, China",
+    about:
+      "Beihang University is a prestigious higher education institution with a long history. Founded on October 25, 1952 under the name of Beijing Institute of Aeronautics, it originated from the merger of the aeronautical departments of Beijing Institute of Technology, Tsinghua University, and Sichuan University. In 1988, it was renamed Beijing University of Aeronautics and Astronautics (BUAA). In 2002, the university changed its English name to Beihang University.",
+    fees: "$50,000 per year",
+    accommodation:
+      "The international student dormitory offers comfortable rooms equipped with essential amenities, including beds, desks, chairs, closets, air conditioners, wireless Internet access, and private bathrooms.The dormitory is managed by building leaders, floor leaders, and dedicated staff, ensuring proper hygiene and smooth daily operations.",
+    image: "/assets/img/china.jpg",
+    programs: [
+      {
+        courseName:
+          "Chinese Foundation + Bachelor Computer Science & Technology",
+        location: "Beijing, Beijing",
+        fee: "Free",
+        duration: "4.5 years",
+        language: "English",
+        intakes: "March 2025",
+        applicationDeadline: "20-01-2025",
+        image: "/assets/img/logo1.png",
+        degreeType: "Undergraduate/Bachelor",
+      },
+      {
+        courseName:
+          "Chinese Foundation + Bachelor International Trade & Economics",
+        location: "Beijing, Beijing",
+        fee: "Free",
+        duration: "2 years",
+        language: "English",
+        intakes: "March 2025",
+        applicationDeadline: "20-01-2025",
+        image: "/assets/img/logo1.png",
+        degreeType: "Undergraduate/Bachelor",
+      },
+      {
+        courseName: "Juris Doctor (JD)",
+        location: "Cambridge, Massachusetts, USA",
+        fee: "$65,000 per year",
+        duration: "3 years",
+        language: "English",
+        intakes: ["Fall"],
+        applicationDeadline: "February 15, 2024",
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: "Stanford University",
+    ranking: 2,
+    location: "Stanford, California, USA",
+    about:
+      "Stanford University is a private research university in Stanford, California.",
+    fees: "$52,000 per year",
+    image: "/assets/img/mission.png",
+    programs: [
+      {
+        courseName: "Master of Science in Electrical Engineering",
+        location: "Stanford, California, USA",
+        fee: "$55,000 per year",
+        duration: "1.5 years",
+        language: "English",
+        intakes: ["Fall", "Spring"],
+        applicationDeadline: "December 10, 2023",
+      },
+      {
+        courseName: "Master of Science in Computer Science",
+        location: "Stanford, California, USA",
+        fee: "$60,000 per year",
+        duration: "2 years",
+        language: "English",
+        intakes: ["Fall"],
+        applicationDeadline: "January 5, 2024",
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: "Massachusetts Institute of Technology",
+    ranking: 3,
+    location: "Cambridge, Massachusetts, USA",
+    about: "MIT is a private research university in Cambridge, Massachusetts.",
+    fees: "$53,000 per year",
+    image: "/assets/img/mission.png",
+    programs: [
+      {
+        courseName: "Master of Science in Mechanical Engineering",
+        location: "Cambridge, Massachusetts, USA",
+        fee: "$54,000 per year",
+        duration: "2 years",
+        language: "English",
+        intakes: ["Fall"],
+        applicationDeadline: "January 10, 2024",
+      },
+      {
+        courseName: "Master of Science in Artificial Intelligence",
+        location: "Cambridge, Massachusetts, USA",
+        fee: "$58,000 per year",
+        duration: "1.5 years",
+        language: "English",
+        intakes: ["Fall", "Spring"],
+        applicationDeadline: "February 1, 2024",
+      },
+    ],
+  },
+];
