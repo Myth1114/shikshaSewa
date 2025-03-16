@@ -36,7 +36,14 @@ document.addEventListener("DOMContentLoaded", function () {
                   <div class="CardBody">
                       <h4 class="cardTitle">${program.courseName}</h4>
                       <p class="cardText">Location: ${program.location}</p>
-                      <p class="cardText">Tution Fee (Yearly): <span class="Fee">${program.fee}</span> <span class="strike">$40000</></p>
+                      <p class="cardText">Tution Fee (Yearly): <span class="Fee">${
+                        program.fee
+                      }</span> <span class="strike">$40000</></p>
+                      <p class="cardText"><span>Accommodation Fee:</span> <span class="Fee">${
+                        program.accommodationFee
+                          ? program.accommodationFee
+                          : "N/A"
+                      }</p>
                       <p class="cardText">Duration: ${program.duration}</p>
                       <p class="cardText">Language: ${program.language}</p>
                       <p class="Degree">Degree: ${program.degreeType}</p>
@@ -45,13 +52,18 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="RightDetail">
                     <div class="Deadline">
                     <span>Application Deadline</span>
-                    <strong>${program.applicationDeadline}</strong>
+                    <strong><span class='Closed'>${
+                      program.applicationDeadline
+                        ? program.applicationDeadline
+                        : "Closed"
+                    }</span></strong>
                     </div>
                     <div class="Deadline">
                     <span>Intake</span>
-                    <strong>${program.intakes}</strong>
-                    </div>
-                         
+                    <strong><span class='Closed'>${
+                      program.intakes ? program.intakes : "Closed"
+                    }</span></strong>
+                    </div>    
                     </div>
                   </div>
               </div>

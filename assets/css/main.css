@@ -28,6 +28,7 @@
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
   --secondary-color: #1c458d;
+  --teriary-color: #ff9d23;
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -88,6 +89,9 @@ h5,
 h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
+}
+p {
+  text-align: justify;
 }
 .custom-btn {
   background: var(--accent-color);
@@ -665,7 +669,26 @@ h6 {
   border-radius: 4px;
   transition: all 0.4s;
 }
-
+.FixedButton {
+  position: fixed;
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  z-index: 99999;
+  background-color: var(--teriary-color);
+  color: #ffffff;
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+  text-align: center;
+}
+.FixedButton a {
+  font-size: 12px;
+  color: #ffffff;
+}
 .scroll-top i {
   font-size: 24px;
   color: var(--contrast-color);
@@ -1579,6 +1602,7 @@ section,
 }
 
 .faq .content p {
+  text-align: justify;
   font-size: 15px;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
@@ -2790,9 +2814,8 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
+/* .starter-section {
+} */
 
 /*--------------------------------------------------------------
 # Widgets
@@ -3002,7 +3025,8 @@ iframe {
 .AusImage img {
   object-fit: cover;
   width: -webkit-fill-available;
-  filter: drop-shadow(5px 5px 10px #000000);
+  /* filter: drop-shadow(5px 5px 10px #000000); */
+  border-radius: 10px;
 }
 .Criteria ul {
   list-style: none;
@@ -3027,20 +3051,29 @@ tr:hover td {
   width: 180px;
 }
 
+/* Custom Styles for table */
+
+.TableHead {
+  background-color: #ff9d23;
+}
+
 /* Custom styles for cards */
 .card {
   cursor: pointer;
   transition: box-shadow 0.2s;
-  border-radius: 15px; /* Add border radius */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow */
-  height: 100%; /* Ensure all cards have the same height */
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  height: 100%;
   display: flex;
   flex-direction: column;
-  overflow: hidden; /* Prevent overflow */
+  overflow: hidden;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  /* Enhance shadow on hover */
+  border: 1px solid #00af50;
+  box-shadow: none;
+  transition: all 0.2 ease-in-out;
 }
 
 .card-img-top {
@@ -3062,7 +3095,7 @@ tr:hover td {
   flex-direction: column;
   /* justify-content: space-between; 
   padding: 10px; */
-  background: #1c458d;
+  background: #ff9d23;
   color: #ffffff;
 }
 .card-body .card-text {
@@ -3087,8 +3120,8 @@ tr:hover td {
     margin: 1rem;
   }
 }
-.img-fluid {
-}
+/* .img-fluid {
+} */
 
 .program-card {
   border: 1px solid #ddd;
@@ -3136,7 +3169,7 @@ tr:hover td {
   width: 10rem;
 }
 .Degree {
-  background: #1c458d;
+  background: #ff9d23;
   color: #ffffff;
   font-size: 14px;
   padding: 1px 19px;
@@ -3149,10 +3182,14 @@ tr:hover td {
 .Fee {
   color: #00af50;
 }
+
 .CardBody .cardText {
-  margin: 0;
+  /* margin: 0; */
   color: #494949;
   font-size: 14px;
+}
+.CardBody > * {
+  margin-bottom: 10px;
 }
 .RightDetail {
   display: flex;
@@ -3168,4 +3205,103 @@ tr:hover td {
 }
 .Deadline strong {
   gap: 15px;
+}
+.Deadline .Closed {
+  color: red;
+}
+/* help section/page */
+.HelpSection {
+  background-color: #f8f9fa; /* Light background color */
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative; /* Required for absolute positioning of the logo */
+  overflow: hidden; /* Prevent scrolling */
+}
+.HelpSectionImage img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the logo */
+  opacity: 0.2; /* Make the logo semi-transparent */
+
+  pointer-events: none; /* Ensure the logo doesn't interfere with clicks */
+  max-width: 300px; /* Adjust the size of the logo */
+  width: 100%;
+}
+.form-container {
+  justify-content: center;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Semi-transparent white background */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  /* max-width: 800px; */
+  z-index: 1;
+}
+@media (min-width: 900px) {
+  .form-container {
+    padding: 0 10rem;
+  }
+}
+
+.form-container h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.form-container .form-control {
+  margin-bottom: 1rem;
+}
+.form-control {
+  padding: 1rem 0.75rem;
+}
+.form-container .btn {
+  width: 100%;
+  margin-top: 1rem;
+}
+.form-control::placeholder {
+  color: #494949;
+  opacity: 0.5;
+}
+.form-control:focus {
+  border: 1px solid var(--teriary-color);
+  box-shadow: none;
+}
+/* .form-control:focus::placeholder {
+  color: blue;
+} */
+
+input::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: red;
+  opacity: 0.5;
+}
+label {
+  font-size: 14px;
+}
+.TertiaryButton {
+  border: none;
+  background-color: orange;
+  color: #ffffff;
+  padding: 5px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.TertiaryButton:hover {
+  background-color: var(--teriary-color);
+  color: #ffffff;
+}
+@media (max-width: 600px) {
+  ul {
+    padding-left: 0;
+  }
 }

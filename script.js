@@ -1,9 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
   const universityCardsContainer = document.getElementById("university-cards");
+  const showAllBtn = document.getElementById("show-all-btn");
 
   // Function to create university cards
-  function createUniversityCards() {
-    universities.forEach((university) => {
+  function createUniversityCards(universitiesToShow) {
+    universityCardsContainer.innerHTML = ""; // Clear existing content
+
+    universitiesToShow.forEach((university) => {
       const card = document.createElement("div");
       card.className = "col-md-3 mb-4";
       card.innerHTML = `
@@ -23,7 +26,9 @@ document.addEventListener("DOMContentLoaded", function () {
       universityCardsContainer.appendChild(card);
     });
   }
+  // Initially show only 6 universities
+  const initialUniversities = universities.slice(0, 4);
+  createUniversityCards(initialUniversities);
 
-  // Initialize the page
-  createUniversityCards();
+  // Show all universities when the button is clicked
 });
