@@ -118,8 +118,19 @@
     </header>
 
     <main class="main">
+      <!-- Image Popup Modal -->
+      <div class="popup-overlay" id="imagePopup">
+        <div class="popup-content">
+          <img
+            src="/assets/img/china.jpg"
+            alt="Popup Image"
+            class="popup-image"
+          />
+          <div class="close-btn" id="closePopup">&times;</div>
+        </div>
+      </div>
       <!-- Hero Section -->
-      <section id="hero" class="hero section dark-background">
+      <!-- <section id="hero" class="hero section dark-background">
         <img src="assets/img/heroImage.jpg" alt="" data-aos="fade-in" />
 
         <div class="container">
@@ -142,9 +153,151 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- /Hero Section -->
+      <!-- Hero Section-2 -->
 
+      <section class="split-section">
+        <div class="container-fluid" data-aos="fade-in">
+          <div class="row align-items-center">
+            <!-- Carousel Column -->
+            <div class="col-lg-6 col-md-6 col-sm-12 p-1">
+              <div
+                id="heroCarousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#heroCarousel"
+                    data-bs-slide-to="0"
+                    class="active"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#heroCarousel"
+                    data-bs-slide-to="1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#heroCarousel"
+                    data-bs-slide-to="2"
+                  ></button>
+                </div>
+
+                <!-- Slides -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="5000">
+                    <img
+                      src="/assets/img/hero-1.jpg"
+                      class="d-block w-100"
+                      alt="Product 1"
+                    />
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <img
+                      src="/assets/img/hero-2.jpg"
+                      class="d-block w-100"
+                      alt="Product 2"
+                    />
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <img
+                      src="/assets/img/hero-1.jpg"
+                      class="d-block w-100"
+                      alt="Product 3"
+                    />
+                  </div>
+                </div>
+
+                <!-- Controls -->
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#heroCarousel"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#heroCarousel"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Company Info Column -->
+            <div class="col-lg-6 col-md-6 h-100 d-flex align-items-center">
+              <div class="consultancy-info px-4 px-lg-5">
+                <h1 class="display-4 fw-bold mb-4">STUDY IN CHINA</h1>
+                <p class="motto h4 mb-4">
+                  "Your Journey to Success Begins in China!"
+                </p>
+
+                <div class="highlights">
+                  <div class="d-flex align-items-center mb-3">
+                    <i class="bi bi-check-circle text-success me-3 fs-5"></i>
+                    <span>Affordable Tuition & Cost of Living</span>
+                  </div>
+                  <div class="d-flex align-items-center mb-3">
+                    <i class="bi bi-check-circle text-success me-3 fs-5"></i>
+                    <span>Scholarship Opportunities</span>
+                  </div>
+                  <div class="d-flex align-items-center mb-4">
+                    <i class="bi bi-check-circle text-success me-3 fs-5"></i>
+                    <span>MBBS & Engineering Excellence</span>
+                  </div>
+                </div>
+
+                <a href="Help.html" class="btn TertiaryButton px-4 py-2">
+                  <i class="bi bi-calendar-check me-2"></i>Book Free
+                  Consultation
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- stats section -->
+      <div class="StatsSection">
+        <div class="container" data-aos="fade-up">
+          <div class="stats-section">
+            <div class="stats-box">
+              <div class="stats-items">
+                <h2>+5</h2>
+                <span>experience</span>
+              </div>
+            </div>
+            <div class="stats-box">
+              <div class="stats-items">
+                <h2>+23K</h2>
+                <span>Students enrolled till now</span>
+              </div>
+            </div>
+            <div class="stats-box">
+              <div class="stats-items">
+                <h2>12</h2>
+                <span>experience</span>
+              </div>
+            </div>
+            <div class="stats-box">
+              <div class="stats-items">
+                <h2>+230</h2>
+                <span> University Cooperations</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Hero Section-2 End  -->
       <!-- Clients Section -->
       <section id="clients" class="clients section">
         <div class="container" data-aos="fade-up">

@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
                       <p class="cardText">Location: ${program.location}</p>
                       <p class="cardText">Tution Fee (Yearly): <span class="Fee">${
                         program.fee
-                      }</span> <span class="strike">$40000</></p>
+                      }</span> </p>
                       <p class="cardText"><span>Accommodation Fee:</span> <span class="Fee">${
                         program.accommodationFee
                           ? program.accommodationFee
@@ -70,23 +70,42 @@ document.addEventListener("DOMContentLoaded", function () {
           `;
       programsContainer.appendChild(programCard);
     });
+    // Display fee structure
+    const feeStructureTable = document
+      .getElementById("fee-structure")
+      .querySelector("tbody");
+    feeStructureTable.innerHTML = ""; // Clear existing content
 
-    // Display intakes and deadlines
-    const intakesDeadlinesContainer = document.getElementById(
-      "detail-intakes-deadlines"
-    );
-    intakesDeadlinesContainer.innerHTML = ""; // Clear existing content
-
-    university.programs.forEach((program) => {
-      const intakeDiv = document.createElement("div");
-      intakeDiv.className = "mb-3";
-      intakeDiv.innerHTML = `
-              <h5>${program.courseName}</h5>
-              <p><strong>Intakes:</strong> ${program.intakes.join(", ")}</p>
-              <p><strong>Deadline:</strong> ${program.applicationDeadline}</p>
-          `;
-      intakesDeadlinesContainer.appendChild(intakeDiv);
-    });
+    if (university.feeStructure) {
+      const feeTypes = [
+        { name: "Bachelor Fee", value: university.feeStructure.bachelor },
+        {
+          name: "Masters Fee",
+          value: university.feeStructure.masters,
+        },
+        { name: "Insurance Fee", value: university.feeStructure.insurance },
+        { name: "Medical Fee", value: university.feeStructure.medical },
+        {
+          name: "Accomodation Fee",
+          value: university.feeStructure.accommodation,
+        },
+        { name: "Visa Extension Fee", value: university.feeStructure.visa },
+      ];
+      feeTypes.forEach((fee) => {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+            <td><strong>${fee.name}</strong></td>
+            <td>${fee.value || "N/A"}</td>
+        `;
+        feeStructureTable.appendChild(row);
+      });
+    } else {
+      const row = document.createElement("tr");
+      row.innerHTML = `
+        <td colspan="2">No fee structure available.</td>
+    `;
+      feeStructureTable.appendChild(row);
+    }
   } else {
     document.getElementById("detail-name").textContent =
       "University not found!";
