@@ -30,7 +30,7 @@ const universities = [
         intakes: "March 2025",
         applicationDeadline: "20-01-2025",
         image: "/assets/img/logo1.png",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
         accommodationFee: "na",
       },
       {
@@ -43,7 +43,7 @@ const universities = [
         intakes: "March 2025",
         applicationDeadline: "20-01-2025",
         image: "/assets/img/logo1.png",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Juris Doctor (JD)",
@@ -54,7 +54,7 @@ const universities = [
         language: "English",
         intakes: ["Fall"],
         applicationDeadline: "February 15, 2024",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
     ],
   },
@@ -88,7 +88,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "June",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
         accommodationFee: "¥8,000 per year",
       },
       {
@@ -100,7 +100,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "June",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "International Economics and Trade",
@@ -112,7 +112,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "June",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Computer Science and Technology",
@@ -124,7 +124,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "June",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Artificial Intellignce",
@@ -136,7 +136,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "June",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Intelligent Manufacturing Engneering",
@@ -148,7 +148,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "June",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Biomedical Engneering",
@@ -160,7 +160,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "June",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Robot Engneering",
@@ -172,7 +172,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "June",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
     ],
   },
@@ -196,7 +196,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "June",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Communication Engineering",
@@ -208,7 +208,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "June",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Optoelectronic Information Science & Engineering",
@@ -220,7 +220,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "June",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Electronic Packaging Technology",
@@ -232,7 +232,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "June",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Urban Planning",
@@ -244,7 +244,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "June",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Robotics Engineering",
@@ -256,7 +256,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "June",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Mechanical Design Manufacturing & Automation",
@@ -268,7 +268,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "June",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Automation",
@@ -280,7 +280,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "June",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Electrical Engineering and Automation",
@@ -292,7 +292,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "June",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Economics",
@@ -304,7 +304,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "June",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Communication Engineering",
@@ -316,7 +316,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "June",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
     ],
   },
@@ -350,7 +350,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "May",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Bachelor in International Tourism and Hotel Management",
@@ -362,7 +362,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "May",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Bachelor in Civil Engineering",
@@ -374,7 +374,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "May",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Bachelor in Software Engineering",
@@ -386,7 +386,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "May",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
     ],
   },
@@ -421,7 +421,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "July",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Civil Engineering",
@@ -433,7 +433,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "July",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Computer Science and Technology",
@@ -445,7 +445,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "July",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Software Engineering",
@@ -457,7 +457,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "July",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Mechanical Engineering",
@@ -469,7 +469,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "July",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Chemical Engineering and Technology",
@@ -481,7 +481,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "July",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Undergraduate Preparatory Program",
@@ -493,7 +493,7 @@ const universities = [
         language: "English",
         intakes: "March",
         applicationDeadline: "Jan",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Finance",
@@ -505,7 +505,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "July",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Electrical Engineering and Automation",
@@ -517,7 +517,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "July",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
     ],
   },
@@ -552,7 +552,7 @@ const universities = [
         language: "English",
         intakes: "March",
         applicationDeadline: "December",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Mining Engineering",
@@ -564,7 +564,7 @@ const universities = [
         language: "English",
         intakes: "March",
         applicationDeadline: "December",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Computer Science and Engineering",
@@ -576,7 +576,7 @@ const universities = [
         language: "English",
         intakes: "March",
         applicationDeadline: "December",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Civil Engineering",
@@ -588,7 +588,7 @@ const universities = [
         language: "English",
         intakes: "March",
         applicationDeadline: "December",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Internation Economics and Trade",
@@ -600,7 +600,7 @@ const universities = [
         language: "English",
         intakes: "March",
         applicationDeadline: "December",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Mechanical Engineering",
@@ -612,7 +612,7 @@ const universities = [
         language: "English",
         intakes: "March",
         applicationDeadline: "December",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
     ],
   },
@@ -669,7 +669,7 @@ const universities = [
         language: "English, Chinese",
         intakes: "September",
         applicationDeadline: "October",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Electrical and Computer Engineering",
@@ -681,7 +681,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "November",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Mechanical Engineering",
@@ -693,7 +693,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "March",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Material Science and Engineering",
@@ -705,7 +705,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "March",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Information Engineering",
@@ -717,7 +717,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "March",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Automation",
@@ -729,7 +729,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "March",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Naval Architecture and Ocean Engineering",
@@ -741,7 +741,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "March",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Power and Energy Engineering",
@@ -753,7 +753,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "March",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Civil Engineering",
@@ -765,7 +765,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "March",
-        degreeType: "Masters",
+        degreeLevel: "Masters",
       },
       {
         courseName: "Transportation Engineering",
@@ -777,7 +777,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "March",
-        degreeType: "Masters",
+        degreeLevel: "Masters",
       },
     ],
   },
@@ -811,7 +811,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "-",
-        degreeType: "Bachelor",
+        degreeLevel: "Bachelor",
       },
     ],
   },
@@ -845,7 +845,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "March",
-        degreeType: "PhD",
+        degreeLevel: "PhD",
       },
       {
         courseName: "Chemical Engineering and Technology",
@@ -857,7 +857,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "April",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Environmental Engineering",
@@ -869,7 +869,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "April",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Pharmaceutical Science",
@@ -881,7 +881,7 @@ const universities = [
         language: "English",
         intakes: "September",
         applicationDeadline: "April",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Material Science and Engineering",
@@ -893,7 +893,7 @@ const universities = [
         language: "Chinese",
         intakes: "September",
         applicationDeadline: "April",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Materials Forming and Control Engineering",
@@ -905,7 +905,7 @@ const universities = [
         language: "Chinese",
         intakes: "September",
         applicationDeadline: "April",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Geographical Science",
@@ -917,7 +917,7 @@ const universities = [
         language: "Chinese",
         intakes: "September",
         applicationDeadline: "April",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
       {
         courseName: "Electrical Engineering an Automation",
@@ -929,7 +929,7 @@ const universities = [
         language: "Chinese",
         intakes: "September",
         applicationDeadline: "April",
-        degreeType: "Undergraduate/Bachelor",
+        degreeLevel: "Bachelor",
       },
     ],
   },

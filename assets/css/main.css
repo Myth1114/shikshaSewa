@@ -3331,6 +3331,35 @@ label {
   height: 100%;
   width: 100%;
 }
+.carousel-control-prev,
+.carousel-control-next {
+  width: 6%;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  height: 15%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.9;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+  color: #c4c4c4;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-control-prev-icon:after {
+  content: "❮";
+  color: #c4c4c4;
+}
+.carousel-control-next-icon:after {
+  content: "❯";
+  color: #c4c4c4;
+}
 
 /* Company Info Styles */
 .hero-section {
@@ -3586,4 +3615,29 @@ label {
   font-size: 20px;
   font-weight: bold;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+/* prorams */
+
+/* Program cards styling */
+.program-card {
+  transition: transform 0.2s;
+  height: 100%;
+}
+.cardBody {
+  margin: 0.5rem;
+}
+.program-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Search and filter styling */
+#program-search {
+  border-radius: 20px;
+}
+
+.filter-section {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
 }
