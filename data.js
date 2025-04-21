@@ -2,7 +2,7 @@ const universities = [
   {
     id: 1,
     name: "Beihang University",
-    ranking: 1,
+    ranking: 227,
     location: "Beijing, China",
     about:
       "Beihang University is a prestigious higher education institution with a long history. Founded on October 25, 1952 under the name of Beijing Institute of Aeronautics, it originated from the merger of the aeronautical departments of Beijing Institute of Technology, Tsinghua University, and Sichuan University. In 1988, it was renamed Beijing University of Aeronautics and Astronautics (BUAA). In 2002, the university changed its English name to Beihang University.",
@@ -27,7 +27,7 @@ const universities = [
         fee: "Free",
         duration: "4.5 years",
         language: "English",
-        intakes: "March 2025",
+        intakes: "March",
         applicationDeadline: "20-01-2025",
         image: "/assets/img/logo1.png",
         degreeLevel: "Bachelor",
@@ -40,7 +40,7 @@ const universities = [
         fee: "Free",
         duration: "2 years",
         language: "English",
-        intakes: "March 2025",
+        intakes: "March",
         applicationDeadline: "20-01-2025",
         image: "/assets/img/logo1.png",
         degreeLevel: "Bachelor",
@@ -61,7 +61,7 @@ const universities = [
   {
     id: 2,
     name: "South China University of Technology",
-    ranking: 2,
+    ranking: 190,
     location: "Guangzhou China",
     about:
       "The South China University of Technology (SCUT) is a leading educational institution in China. It is a public research-intensive university directly governed by the Chinese Ministry of Education. Located in the city of Guangzhou, a thriving metropolis in South China, the university today covers a total area of 391 hectares, consisting of three campuses: the Wushan Campus, the University Town Campus, and the Guangzhou International Campus.The university was formerly known as the South China Institute of Technology, which was first founded in 1952 by merging the engineering schools and departments of several major universities and polytechnic institutes from five provinces, including Guangdong, Guangxi, Hunan, Hubei and Jiangxi. The reorganization, at the time, brought engineering faculties with the strongest academic strengths in the central and southern China together in Guangzhou. The predecessors of this new institute shared long histories of developing modern higher education and scientific research, especially in training students of engineering and technology. The outstanding tradition dates back to the early 20th century, when modern democracy and science were emerging and developing quickly in Guangdong province. In 1960, eight years after the institute's establishment, it was selected by the state as a National Key University. In 1981, it was authorized by the State Council as one of the first institutions in the country to confer doctoral degrees and master degrees. Entering a new stage of history, our faculty will continue to see student cultivation as the ultimate goal in our agenda. SCUT will always hold onto the belief that takes 'the academy as the foundation, talented ones as the strength, open minds as the vitality, and the culture of the university as the energy to thrive and last'. All these efforts are building SCUT as a top-ranking university in the country and a renowned world-class institution.",

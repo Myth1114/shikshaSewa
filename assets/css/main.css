@@ -3185,11 +3185,13 @@ tr:hover td {
   color: #00af50;
 }
 
-.CardBody .cardText {
+.CardBody .cardText,
+.cardText span {
   /* margin: 0; */
   color: #494949;
   font-size: 14px;
 }
+
 .CardBody > * {
   margin-bottom: 10px;
 }
@@ -3208,8 +3210,19 @@ tr:hover td {
 .Deadline strong {
   gap: 15px;
 }
-.Deadline .Closed {
+.Closed {
   color: red;
+}
+.Intake {
+  color: var(--accent-color) !important;
+}
+.programLogo {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+
+  margin-bottom: 20px;
+  width: 60px;
 }
 /* help section/page */
 .HelpSection {
@@ -3640,4 +3653,22 @@ label {
   background-color: #f8f9fa;
   border-radius: 10px;
   padding: 20px;
+}
+/* Style for the program counter */
+#program-count {
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

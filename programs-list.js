@@ -8,17 +8,20 @@ document.addEventListener("DOMContentLoaded", function () {
     programs.forEach((program) => {
       const university = universities.find((u) => program.id.startsWith(u.id));
       const programCard = document.createElement("div");
-      programCard.className = "col-md-6 mb-4";
+      programCard.className = "col-md-4 mb-4";
       programCard.innerHTML = `
                 <div class="card h-100">
                     <div class="cardBody">
-                        <h5 class="card-title">${program.name}</h5>
+                    <img class='programLogo' src="${program.image}"/>
+                        <h5 class="cardTitle">${program.name}</h5>
                         <h6 class="card-subtitle mb-2 text-muted">${university.name}</h6>
-                        <p class="card-text">
-                            <strong>Fee:</strong> ${program.fee}<br>
-                            <strong>Duration:</strong> ${program.duration}
+                        <p class="cardText">
+                            <span>Fee: ${program.fee}</span> <br>
+                            <span>Duration: ${program.duration}</span><br>
+                            <span>Language: ${program.language}</span><br>
+                            <span>Intake: <span class='Intake'>${program.intakes}</span></span>
                         </p>
-                        <a href="program-details.html?id=${program.id}" class="btn btn-primary">View Details</a>
+                     
                     </div>
                 </div>
             `;
@@ -60,4 +63,14 @@ document.addEventListener("DOMContentLoaded", function () {
       renderPrograms(filtered);
     });
   });
+  // Display total program count
+  function updateProgramCount(count) {
+    const countElement = document.getElementById("program-count");
+    countElement.textContent = `${count} ${
+      count === 1 ? "Program" : "Programs"
+    } found`;
+  }
+
+  // Initial count display
+  updateProgramCount(allPrograms.length);
 });
